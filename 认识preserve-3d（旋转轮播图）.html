@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>认识preserve-3d</title>
+    <style>
+        body {
+            perspective: 1000px;
+        }
+        section {
+            width: 300px;
+            height: 200px;
+            margin: 100px auto;
+            background: url("images/5a02df29Nd171bcd6.jpg") no-repeat;
+            background-size: cover;
+            position: relative;
+            transform-style: preserve-3d;
+            transition: 5s linear;
+        }
+        section:hover {
+            transform: rotateY(540deg);
+        }
+        section div {
+            width: 100%;
+            height: 100%;
+            background: url("images/banner1.jpg") no-repeat;
+            background-size: cover;
+            top: 0;
+            left: 0;
+            position: absolute;
+        }
+        section div:nth-child(1) {
+            transform: rotateY(0deg) translateZ(400px);
+        }
+        section div:nth-child(2) {
+            transform: rotateY(60deg) translateZ(400px);
+        }
+        section div:nth-child(3) {
+            transform: rotateY(120deg) translateZ(400px);
+        }
+        section div:nth-child(4) {
+            transform: rotateY(180deg) translateZ(400px);
+        }
+        section div:nth-child(5) {
+            transform: rotateY(240deg) translateZ(400px);
+        }
+        section div:nth-child(6) {
+            transform: rotateY(300deg) translateZ(400px);
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </section>
+</body>
+</html>
