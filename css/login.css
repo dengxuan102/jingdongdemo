@@ -1,0 +1,33 @@
+body {
+    font: 12px/150% Arial, Verdana, "\5b8b\4f53";
+    color: #666;
+    background: #fff;
+}
+
+.w {
+    width: 900px;
+    margin: 0 auto;
+}
+
+#logo {
+    width: 300px;
+    position: relative;
+    width: 300px;
+    margin: 10px 0;
+    height: 60px;
+    float: left;
+}
+
+#logo img {
+    vertical-align: middle;
+}
+
+#logo b {
+    display: block;
+    width: 110px;
+    height: 40px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background: url(../images/login/l-icon.png) no-repeat;
+}

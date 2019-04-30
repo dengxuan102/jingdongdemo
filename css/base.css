@@ -1,6 +1,9 @@
 img {
-    display: block;
     vertical-align: top;        /*解决图片底侧有空白缝隙的问题*/
+}
+blockquote,body,button,dd,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,hr,input,legend,ul,li,ol,p,pre,td,textarea,th {
+    border: 0;
+    outline: 0;
 }
 .w {
     width: 1190px;
@@ -24,10 +27,7 @@ ul,h1,p,input,button {
     margin: 0;
     padding: 0;
 }
-blockquote,body,button,dd,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,hr,input,legend,ul,li,ol,p,pre,td,textarea,th {
-    border: 0;
-    outline: 0;
-}
+
 ul {
     list-style: none;
 }
