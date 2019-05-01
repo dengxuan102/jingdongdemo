@@ -5,7 +5,7 @@ body {
 }
 
 .w {
-    width: 900px;
+    width: 990px;
     margin: 0 auto;
 }
 
@@ -15,7 +15,7 @@ body {
     width: 300px;
     margin: 10px 0;
     height: 60px;
-    float: left;
+    /* float: left; */
 }
 
 #logo img {
@@ -30,4 +30,115 @@ body {
     right: 0;
     bottom: 0;
     background: url(../images/login/l-icon.png) no-repeat;
+}
+
+.q-link b {
+    display: inline-block;
+    width: 18px;
+    height: 14px;
+    margin: 0 5px;
+    background: url(../images/login/q-icon.png) no-repeat;
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+#logo+a {
+    position: relative;
+    color: #999;
+    float: right;
+    top: 52px;
+}
+
+#logo+.q-link:hover {
+    color: #f10215;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#content {
+    clear: both;
+}
+
+#content .tips-wrapper {
+    background: #fff8f0;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+#content .tips-wrapper .cont-wrapper {
+    display: inline-block;
+    width: 90%;
+}
+
+#content .tips-wrapper .icon-tips {
+    background: url(../images/login/icon-tips.png);
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+#content .tips-wrapper .tips-inner p {
+    vertical-align: middle;
+    color: #999;
+    font-size: 12px;
+    display: inline-block;
+    *display: inline;
+}
+
+.login-wrap {
+    position: relative;
+    height: 475px;
+    margin: 10px 0 20px;
+    z-index: 5;
+}
+
+.login-wrap .login-form {
+    float: right;
+    top: 10px;
+}
+
+.login-form {
+    position: relative;
+    z-index: 4;
+    background: #fff;
+    overflow: visible;
+    width: 346px;
+}
+
+.login-form .login-box {
+    width: 306px;
+    padding: 20px;
+    visibility: hidden;
+}
+
+
+.login-form .login-tab {
+    height: 54px;
+    font-size: 18px;
+    font-family: "microsoft yahei";
+    text-align: center;
+    border-bottom: 1px solid #f4f4f4;
+    position: absolute;
+    background: #fff;
+    display: block;
+}
+.login-form .login-tab a {
+    width: 99%;
+    height: 18px;
+    position: absolute;
+    left: 0;
+    top: 18px;
+    border-right: 1px solid #f4f4f4;
+    text-decoration: none;
+}
+.login-form .login-tab a.checked,
+.login-form .login-tab a:hover {
+    font-weight: 700;
+    color: #e4393c;
 }

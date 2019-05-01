@@ -34,6 +34,7 @@ header .w .iconfont {
 
 .grid {
     height: 480px;
+    background: url(../images/index/lr.png) 50% 0 no-repeat;
 }
 
 .grid-col1 {
@@ -97,19 +98,15 @@ header .w .iconfont {
 }
 
 .grid-col2 {
-    width: 790px;
+    /* position: relative; */
+    width: 590px;
     height: 100%;
-    margin-left: 10px;
+    margin: 10px 0 0 10px;
 }
 
 /*banner部分*/
 .grid-col2-b div {
     float: left;
-    margin-top: 10px;
-}
-
-.grid-col2-b div:last-child {
-    float: right;
     margin-top: 10px;
 }
 
@@ -168,6 +165,16 @@ header .w .iconfont {
     background-color: #f10215;
 }
 
+#J_rec {
+    /* position: absolute;   */
+    width: 190px;
+    padding: 10px 0 0 10px;
+}
+
+#J_rec .rec_item {
+    padding-bottom: 10px;
+}
+
 .grid-col3 {
     width: 190px;
     height: 100%;
@@ -222,13 +229,22 @@ header .w .iconfont {
 
 .login-b a {
     display: inline-block;
+    margin: 0 5px;
     width: 70px;
-    height: 20px;
-    border: 2px solid #f10215;
-    margin-right: 3px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 12px;
     text-align: center;
-    line-height: 20px;
-    color: #f10215;
+    color: #e43f3b;
+    border-radius: 13px;
+    box-shadow: 6px 8px 20px rgba(45, 45, 45, .15);
+    transition: background .3s ease, color .3s ease;
+}
+
+.login-b a:last-child {
+    background: #363634;
+    color: #e5d790;
+    float: right;
 }
 
 .login-b a:hover {

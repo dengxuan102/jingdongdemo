@@ -1,31 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="./css/login.css">
-</head>
-<body>
-    <header>
-        <div class="w">
-            <div id="logo">
-                <a href="#">
-                    <img src="./images/login/logo-b.png" alt="">
-                </a>
-                <b></b>
-            </div>
-        </div>
-    </header>
-    <section>
-        <div id="content">
-            <div class="tips-wrapper"></div>
-            <div class="login-warp">
 
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/login.css">
+
+
+</head>
+
+<body>
+
+    <div class="w">
+        <div id="logo" class="fl">
+            <a href="#">
+                <img src="./images/login/logo-b.png" alt="">
+            </a>
+            <b></b>
+        </div>
+        <a class="q-link" target="_blank" href="#"><b></b>登录页面，调问卷</a>
+    </div>
+    <div id="content">
+        <div class="tips-wrapper">
+            <div class="tips-inner">
+                <div class="cont-wrapper">
+                    <i class="icon-tips"></i>
+                    <p>依据《网络安全法》，为保障您的账户安全和常使用，请尽快完成手机号验证！ 新版<ahref="#">《京东隐私政策》</a>已上线，将更有于保护您的个人隐私。</p>
+                </div>
             </div>
         </div>
-    </section>
+        <div class="login-warp">
+            <div class="w">
+                <div class="login-form">
+                    <div class="tips-wrapper">
+                        <div class="tips-inner">
+                            <div class="cont-wrapper">
+                                <i class="icon-tips"></i>
+                                <p>京东不会以任何理由要求您转账汇款，谨防诈骗。</p>
+                            </div>
+                    </div>
+                    <div class="login-tab">
+                        <a class="checked" href="#">账号登录</a>
+                    </div>
+                    <!-- 登录框 -->
+                    <div class="login-box">
+                        <div class="mc">
+                            <!-- 表单验证 -->
+                            <div class="form">
+                                <form id="formlogin" onsubmit="return false;"></form>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 其它登录方式 -->
+                    <div class="coagent" id="kbCoagent">
+                        <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- 背景图 -->
+            <div class="login-banner">
+                <div class="w">
+                    <div id="banner-bg" class="i-inner"></div>
+                </div>
+            </div>
+        </div>
+    </div>
     <footer></footer>
 </body>
+
 </html>
