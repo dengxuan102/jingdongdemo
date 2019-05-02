@@ -1,0 +1,26 @@
+.swiper-button-prev,
+.swiper-button-next {
+    position: absolute;
+    top: 50%;
+    width: 15px;
+    height: 30px;
+    margin-top: -22px;
+    z-index: 10;
+    cursor: pointer;
+    background-size: 15px 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* color: rgba(255, 255, 255, .6); */
+    background-color: rgba(0, 0, 0, .3);
+    transform: translateY(-50%);
+}
+
+.swiper-button-prev {
+    left: 0px;
+    right: auto;
+}
+
+.swiper-button-next {
+    right: 0px;
+    left: auto;
+}

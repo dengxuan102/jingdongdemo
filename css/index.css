@@ -115,55 +115,6 @@ header .w .iconfont {
     position: relative;
 }
 
-.arrow-l,
-.arrow-r {
-    font-family: "icomoon";
-    position: absolute;
-    top: 50%;
-    width: 30px;
-    height: 60px;
-    background-color: rgba(0, 0, 0, .3);
-    transform: translateY(-50%);
-    text-align: center;
-    color: rgba(255, 255, 255, .6);
-    font-size: 32px;
-    line-height: 60px;
-}
-
-.arrow-r {
-    right: 0;
-}
-
-.circle {
-    width: 175px;
-    height: 20px;
-    background: rgba(255, 255, 255, .3);
-    position: absolute;
-    left: 50%;
-    bottom: 20px;
-    transform: translateX(-50%);
-    border-radius: 10px;
-    padding-left: 8px;
-    box-sizing: border-box;
-}
-
-.circle li {
-    width: 12px;
-    height: 12px;
-    background-color: #fff;
-    border-radius: 50%;
-    float: left;
-    margin: 4px;
-    cursor: pointer;
-}
-
-.circle .current {
-    background-color: #f10215;
-}
-
-.circle li:hover {
-    background-color: #f10215;
-}
 
 #J_rec {
     /* position: absolute;   */
@@ -182,10 +133,11 @@ header .w .iconfont {
 
 .login {
     height: 85px;
-    border-bottom: 1px solid #ccc;
+    /* border-bottom: 1px solid #ccc; */
     background-color: #fff;
     padding: 15px;
 }
+
 
 .login-t {
     width: 95px;
@@ -202,6 +154,9 @@ header .w .iconfont {
     color: #666;
     padding-left: 60px;
     position: relative;
+}
+.user_show{
+    margin-top:15px;
 }
 
 .login-t a {
@@ -224,7 +179,7 @@ header .w .iconfont {
 .user-info img {
     width: 100%;
     border-radius: 35%;
-    margin: 5px;
+    margin: 5px auto;
 }
 
 .login-b a {
@@ -262,7 +217,6 @@ header .w .iconfont {
 
 .news-t {
     height: 19px;
-    border-bottom: 1px solid #ccc;
     position: relative;
 }
 
@@ -272,9 +226,26 @@ header .w .iconfont {
     line-height: 17px
 }
 
-.cuxiao {
-    width: 38px;
-    border-right: 1px solid #ccc;
+.kuaibao {
+    width: 60px;
+    font-size: 13px;
+    font-weight: bold;
+    color:#666;
+    /* border-right: 1px solid #ccc; */
+}
+.news_tag{
+    display: inline-block;
+    position: relative;
+    font-size: 12px;
+    height: 16px;
+    width: 35px;
+    line-height: 16px;
+    text-align: center;
+    vertical-align: 0;
+    border-radius: 2px;
+    color: #fff;
+    background-color: #e47f7f;
+    margin-right: 6px;
 }
 
 .gg {
@@ -285,15 +256,6 @@ header .w .iconfont {
     float: right;
 }
 
-.news-t div {
-    height: 2px;
-    width: 28px;
-    background-color: #f10215;
-    position: absolute;
-    bottom: -1px;
-    left: 0;
-}
-
 .news-b {
     padding-top: 15px;
 }
@@ -301,6 +263,8 @@ header .w .iconfont {
 .news-b li {
     height: 24px;
     line-height: 24px;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .expand {

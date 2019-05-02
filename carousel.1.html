@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./dist/css/swiper.min.css">
+    <style>
+        .swiper-container2 {
+            width: 800px;
+            height: 275px;
+        }
+
+        .sk_item_lk {
+            position: relative;
+            display: block;
+            width: 190px;
+            height: 275px;
+            text-align: center;
+            margin: auto;
+        }
+
+        .sk_item_img {
+            position: absolute;
+            width: 140px;
+            height: 140px;
+            left: 50%;
+            margin-left: -70px;
+            top: 40px;
+        }
+
+        .sk_item_name {
+            position: absolute;
+            top: 190px;
+            left: 0;
+            width: 160px;
+            padding: 0 15px;
+            line-height: 30px;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            white-space: nowrap;
+        }
+
+        .sk_item_price {
+            position: absolute;
+            left: 15px;
+            top: 230px;
+            width: 160px;
+            height: 20px;
+            padding: 0;
+            background: #e6382f;
+            line-height: 20px;
+        }
+
+        .mod_price {
+            font-size: 14px;
+            color: #e33333;
+        }
+
+        .sk_item_price_new {
+            float: left;
+            width: 8px;
+            height: 20px;
+            text-align: center;
+            color: #fff;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        .sk_item_price_origin {
+            float: left;
+            width: 8px;
+            height: 20px;
+            background: #fff;
+            text-align: center;
+            color: #b7bcb8;
+            font-size: 12px;
+            text-decoration: line-through;
+        }
+
+        .swiper-wrapper2 {
+            content: '';
+            display: block;
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 1px;
+            height: 275px;
+            background: #f0f0f0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="swiper-container swiper-container2">
+        <div class="swiper-wrapper swiper-wrapper2">
+            <div class="swiper-slide swiper-slide2">
+                <a class="sk_item_lk" href="#">
+                    <div class="sk_item_img"><img src="./images/index/flash/1.png" alt=""></div>
+                    <p class="sk_item_name">美菱 MeiLing MY-L109 家用立式双门温热型饮水机</p>
+                    <div class="sk_item_price">
+                        <span class="mod_price sk_item_price_new"><i>￥</i><span>169.00</span></span>
+                        <span class="mod_price sk_item_price_origin"><i>￥</i><span>169.00</span></span>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+
+
+    
+    <script src="./dist/js/swiper.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container2', {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            slidesPerGroup: 3,
+            loop: true,
+            loopFillGroupWithBlank: true,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+    </script>
+</body>
+
+</html>

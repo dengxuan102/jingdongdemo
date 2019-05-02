@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>flashdeals</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <style>
+        .flash {
+            width: 1190px;
+            height: 275px;
+            background: #e83632;
+            margin: 0 auto;
+            margin-top: 30px;
+        }
+
+        .flash .flash_l .f10 {
+            position: relative;
+            height: 275px;
+            width: 190px;
+            text-align: center;
+            font: 12px/1.5 Microsoft YaHei, tahoma, arial, Hiragino Sans GB, \\5b8b\4f53, sans-serif;
+            color: #666;
+        }
+
+        .sk_tit {
+            position: absolute;
+            width: 100%;
+            left: 0;
+            top: 42px;
+            font-size: 34px;
+            color: #fff;
+        }
+
+        .sk_subtit {
+            position: absolute;
+            width: 100%;
+            left: 0;
+            top: 90px;
+            font-size: 20px;
+            color: rgba(255, 255, 255, .5);
+        }
+
+
+        .sk_ico {
+            position: absolute;
+            left: 86px;
+            top: 126px;
+            display: block;
+            width: 20px;
+            height: 33px;
+            background: url(./images/index/sprite.seckill.png) -35px -25px;
+        }
+
+        .sk_desc {
+            position: absolute;
+            text-align: center;
+            top: 170px;
+            display: block;
+            width: 100%;
+            height: 16px;
+            color: #fff;
+        }
+
+        .sk_cd {
+            position: absolute;
+            top: 212px;
+            left: 30px;
+            height: 40px;
+        }
+
+
+
+        .sk_cd .cd_item {
+            position: relative;
+            float: left;
+            width: 40px;
+            height: 40px;
+            text-align: center;
+            background: #2f3430;
+            margin-right: 5px;
+        }
+
+        .cd_item:before {
+            content: '';
+            display: block;
+            position: absolute;
+            left: 0;
+            width: 100%;
+            top: 50%;
+            height: 1px;
+            background: #e83632;
+        }
+
+        .flash .cd_day {
+            display: none;
+            float: left;
+        }
+
+        .flash .cd_item_txt {
+            position: relative;
+            line-height: 40px;
+            font-weight: bold;
+            font-size: 20px;
+            color: #fff;
+        }
+
+        .flash_m {
+            width: 800px;
+            height: 275px;
+        }
+
+
+
+
+        .sk_item {
+            width: 200px;
+            /* position: relative; */
+            height: 275px;
+        }
+
+        .sk_item_lk {
+            position: relative;
+            display: block;
+            width: 190px;
+            height: 275px;
+            text-align: center;
+            margin: auto;
+        }
+
+        .sk_item_img {
+            position: absolute;
+            width: 140px;
+            height: 140px;
+            left: 50%;
+            margin-left: -70px;
+            top: 40px;
+            transition: opacity ease 0.2s;
+        }
+
+        .sk_item_name {
+            position: absolute;
+            top: 180px;
+            left: 0;
+            width: 160px;
+            padding: 0 15px;
+            line-height: 30px;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            white-space: nowrap;
+            font-size: 12px;
+
+        }
+
+        .sk_item_price {
+            position: absolute;
+            left: 15px;
+            top: 230px;
+            width: 160px;
+            height: 20px;
+            padding: 1px;
+            background: #e6382f;
+            line-height: 20px;
+        }
+
+        .mod_price {
+            font-size: 14px;
+            color: #e33333;
+        }
+
+        .sk_item_price_new {
+            float: left;
+            width: 80px;
+            height: 20px;
+            text-align: center;
+            color: #fff;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        .sk_item_price_origin {
+            float: left;
+            width: 80px;
+            height: 20px;
+            background: #fff;
+            text-align: center;
+            color: #b7bcb8;
+            font-size: 12px;
+            text-decoration: line-through;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="flash">
+        <div class="flash_l">
+            <div class="f10">
+                <div class="sk_tit">京东秒杀</div>
+                <div class="sk_subtit">FLASH DEALS</div>
+                <i class="sk_ico"></i>
+                <div class="sk_desc">本场距离结束还剩</div>
+                <div class="sk_cd">
+                    <div class="cd">
+                        <div class="cd_item cd_day"><span class="cd_item_txt">12</span></div>
+                        <div class="cd_item cd_hour"><span class="cd_item_txt">12</span></div>
+                        <div class="cd_item cd_minute"><span class="cd_item_txt">12</span></div>
+                        <div class="cd_item cd_second"><span class="cd_item_txt">12</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="flash_m swiper-container swiper-container2">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide sk_item"><a class="sk_item_lk" href="#">
+                        <div class="sk_item_img"><img src="./images/index/flash/1.png" alt=""></div>
+                        <p class="sk_item_name">美菱 MeiLing MY-L109 家用立式双门温热型饮水机</p>
+                        <p class="sk_item_name_hover" style="display:none;">美菱 MeiLing MY-L109 家用立式双门温热型饮水机</p>
+                        <div class="sk_item_price">
+                            <span class="mod_price sk_item_price_new"><i>￥</i><span>169.00</span></span>
+                            <span class="mod_price sk_item_price_origin"><i>￥</i><span>169.00</span></span>
+                        </div>
+                    </a>
+                </div>
+                <div class="swiper-slide sk_item"><a class="sk_item_lk" href="#">
+                        <div class="sk_item_img"><img src="./images/index/flash/1.png" alt=""></div>
+                        <p class="sk_item_name">美菱 MeiLing MY-L109 家用立式双门温热型饮水机</p>
+                        <p class="sk_item_name_hover" style="display:none;">美菱 MeiLing MY-L109 家用立式双门温热型饮水机</p>
+                        <div class="sk_item_price">
+                            <span class="mod_price sk_item_price_new"><i>￥</i><span>169.00</span></span>
+                            <span class="mod_price sk_item_price_origin"><i>￥</i><span>169.00</span></span>
+                        </div>
+                    </a>
+                </div>
+                <div class="swiper-slide sk_item"><a class="sk_item_lk" href="#">
+                        <div class="sk_item_img"><img src="./images/index/flash/1.png" alt=""></div>
+                        <p class="sk_item_name">美菱 MeiLing MY-L109 家用立式双门温热型饮水机</p>
+                        <p class="sk_item_name_hover" style="display:none;">美菱 MeiLing MY-L109 家用立式双门温热型饮水机</p>
+                        <div class="sk_item_price">
+                            <span class="mod_price sk_item_price_new"><i>￥</i><span>169.00</span></span>
+                            <span class="mod_price sk_item_price_origin"><i>￥</i><span>169.00</span></span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- 导航按钮 -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+        <div class="flash_r"></div>
+    </div>
+
+    <script src="./dist/js/swiper.min.js"></script>
+    <script>
+        var mySwiper = new Swiper('.swiper-container2', {
+            direction: 'horizontal',
+            // height: 300,
+            // width: 600,
+            loop: true,
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+    </script>
+</body>
+
+</html>
