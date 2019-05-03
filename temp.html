@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .cate_part_col1 {
+            float: left;
+            width: 800px;
+            height: 480px;
+            border: 1px solid red;
+        }
+
+        .cate_part_col2 {
+            float: left;
+            width: 198px;
+            height: 480px;
+            border: 1px solid red;
+        }
+
+        .cate_part_col2 {
+            width: 168px;
+
+        }
+
+        .cate_part_col2 img {
+            display: block;
+            margin-bottom: 1px;
+            height: 134px;
+            background-color: #e7e7e7;
+            border: 0;
+
+        }
+
+        .cate_part:after {
+            visibility: hidden;
+            clear: both;
+            display: block;
+            content: ".";
+            height: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="cate_part">
+        <div class="cate_part_col1">
+            <div class="cate_channel"></div>
+            <div class="cate_detail"></div>
+        </div>
+        <div class="cate_part_col2">
+            <a href="#"><img src="./images/index/cate_promotion-1.jpg" alt=""></a>
+            <a href="#"><img src="./images/index/cate_promotion-2.jpg" alt=""></a>
+        </div>
+    </div>
+</body>
+
+</html>
