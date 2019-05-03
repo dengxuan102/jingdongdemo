@@ -1,0 +1,244 @@
+.flash {
+    width: 1190px;
+    height: 275px;
+    /* background: #e83632; */
+    margin: 0 auto;
+    /* margin-top: 30px; */
+    position: relative;
+}
+
+.flash .flash_l .f10 {
+    position: relative;
+    height: 275px;
+    width: 190px;
+    text-align: center;
+    background: #e83632;
+    font: 12px/1.5 Microsoft YaHei, tahoma, arial, Hiragino Sans GB, \\5b8b\4f53, sans-serif;
+    color: #666;
+}
+
+.sk_tit {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 42px;
+    font-size: 34px;
+    color: #fff;
+}
+
+.sk_subtit {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 90px;
+    font-size: 20px;
+    color: rgba(255, 255, 255, .5);
+}
+
+
+.sk_ico {
+    position: absolute;
+    left: 86px;
+    top: 126px;
+    display: block;
+    width: 20px;
+    height: 33px;
+    background: url(./images/index/sprite.seckill.png) -35px -25px;
+}
+
+.sk_desc {
+    position: absolute;
+    text-align: center;
+    top: 170px;
+    display: block;
+    width: 100%;
+    height: 16px;
+    color: #fff;
+}
+
+.sk_cd {
+    position: absolute;
+    top: 212px;
+    left: 30px;
+    height: 40px;
+}
+
+
+
+.sk_cd .cd_item {
+    position: relative;
+    float: left;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    background: #2f3430;
+    margin-right: 5px;
+}
+
+.cd_item:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top: 50%;
+    height: 1px;
+    background: #e83632;
+}
+
+.flash .cd_day {
+    display: none;
+    float: left;
+}
+
+.flash .cd_item_txt {
+    position: relative;
+    line-height: 40px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #fff;
+}
+
+.flash_m {
+    width: 800px;
+    height: 275px;
+    position: absolute;
+    top: 0;
+    left: 200px;
+    background: #fff;
+}
+
+
+
+
+.sk_item {
+    width: 200px;
+    position: relative;
+    height: 275px;
+    /* float: left; */
+}
+
+.sk_item:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 1px;
+    height: 275px;
+    background: #f0f0f0;
+}
+
+.sk_item_lk {
+    position: relative;
+    display: block;
+    width: 190px;
+    height: 275px;
+    text-align: center;
+    margin: auto;
+}
+
+.sk_item_img {
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    left: 50%;
+    margin-left: -70px;
+    top: 40px;
+    transition: opacity ease 0.2s;
+}
+
+.sk_item_name {
+    position: absolute;
+    top: 180px;
+    left: 0;
+    width: 160px;
+    padding: 0 15px;
+    line-height: 30px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 12px;
+
+}
+
+.sk_item_price {
+    position: absolute;
+    left: 15px;
+    top: 230px;
+    width: 160px;
+    height: 20px;
+    padding: 1px;
+    background: #e6382f;
+    line-height: 20px;
+}
+
+.mod_price {
+    font-size: 14px;
+    color: #e33333;
+}
+
+.sk_item_price_new {
+    float: left;
+    width: 80px;
+    height: 20px;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.sk_item_price_origin {
+    float: left;
+    width: 80px;
+    height: 20px;
+    background: #fff;
+    text-align: center;
+    color: #b7bcb8;
+    font-size: 12px;
+    text-decoration: line-through;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    position: absolute;
+    top: 50%;
+    width: 20px;
+    height: 40px;
+    margin-top: 0;
+    z-index: 10;
+    cursor: pointer;
+    background-size: 15px 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* color: rgba(255, 255, 255, .6); */
+    background-color: rgba(0, 0, 0, .15);
+    transform: translateY(-50%);
+}
+
+.swiper-button-prev {
+    left: 0px;
+    right: auto;
+}
+
+.swiper-button-next {
+    right: 0px;
+    left: auto;
+}
+
+.flash_r {
+    width: 190px;
+    height: 275px;
+    margin: 0 auto;
+
+}
+
+.swiper-container3 {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.flash_r .swiper-wrapper {
+    padding: 5px;
+}

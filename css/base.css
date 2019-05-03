@@ -51,7 +51,8 @@ header {
 .shortcut i:hover {
     color: #f10215;
 }
-.shortcut>ul>li>img{
+
+.shortcut>ul>li>img {
     width: 100%;
 }
 
@@ -160,6 +161,50 @@ header {
     line-height: 15px;
 }
 
+.dropdown-layer {
+    top: 35px;
+    right: 0;
+    width: 308px;
+    display: none;
+    position: absolute;
+    color: #666;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    box-shadow: 1px 2px 1px rgba(0, 0, 0, .1);
+}
+
+.cart_pop {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    vertical-align: middle;
+    background: #fff;
+}
+
+.cart_empty {
+    height: 49px;
+    margin: auto;
+    padding: 10px 0;
+    text-align: center;
+    line-height: 49px;
+    overflow: hidden;
+    color: #999;
+}
+
+.cart_empty_img {
+    display: inline-block;
+    *display: inline;
+    vertical-align: middle;
+    width: 56px;
+    height: 49px;
+    background: url(../images/index/cart.png) no-repeat;
+}
+
+.shopCar:hover .dropdown-layer {
+    display: block;
+    /* z-index: 11; */
+}
+
 .hotwords {
     position: absolute;
     top: 68px;
@@ -191,9 +236,9 @@ header {
     margin: 15px -15px 0 15px;
 }
 
-a:hover {
+/* a:hover {
     color: #c81623;
-}
+} */
 
 /*页面底部*/
 footer {

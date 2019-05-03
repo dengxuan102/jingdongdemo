@@ -29,7 +29,7 @@ ul {
 
 body {
     background-color: #f6f6f6;
-    font: 12px/1.5 Microsoft YaHei,tahoma,arial,Hiragino Sans GB,\\5b8b\4f53,sans-serif;
+    font: 12px/1.5 Microsoft YaHei, tahoma, arial, Hiragino Sans GB, \\5b8b\4f53, sans-serif;
     color: #666;
 }
 
@@ -41,6 +41,10 @@ a {
     text-decoration: none;
     color: #999999;
     font-size: 12px;
+}
+
+a:hover {
+    color: #f10215 !important;
 }
 
 .fl {
