@@ -20,6 +20,14 @@ img {
     font-style: normal;
 }
 
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
 header {
     height: 80px;
     background-color: #020000;

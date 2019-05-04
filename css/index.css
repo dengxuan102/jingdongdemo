@@ -120,6 +120,126 @@ header .w .iconfont {
     background-color: #d9d9d9;
 }
 
+
+
+.cate_part {
+    display: none;
+    padding: 20px 0 0 20px;
+
+}
+
+.grid-col1 ul li:hover #cate_item1 {
+    display: block;
+    z-index: 11;
+}
+
+.cate_detail a {
+    color: #666;
+    text-decoration: none;
+}
+
+.cate_part_col1 {
+    float: left;
+    width: 800px;
+    height: 480px;
+    /* border: 1px solid red; */
+}
+
+.cate_part_col2 {
+    float: left;
+    width: 198px;
+    height: 480px;
+    /* border: 1px solid red; */
+}
+
+.cate_promotion {
+    margin: 10px auto 0;
+    width: 168px;
+}
+
+.cate_promotion_lk {
+    display: block;
+    margin-bottom: 1px;
+    height: 134px;
+    background-color: #e7e7e7;
+}
+
+.cate_part:after {
+    visibility: hidden;
+    clear: both;
+    display: block;
+    content: ".";
+    height: 0;
+}
+
+.cate_channel {
+    overflow: hidden;
+    padding-left: 20px;
+    height: 24px;
+}
+
+.cate_channel_lk {
+    *cursor: pointer;
+    float: left;
+    margin-right: 10px;
+    padding: 0 10px;
+    height: 24px;
+    background-color: #333;
+    line-height: 24px;
+    color: #fff;
+}
+
+.cate_channel_arrow {
+    margin-left: 5px;
+}
+
+.cate_channel a:hover {
+    background-color: #5c5251;
+}
+
+.cate_detail {
+    overflow: hidden;
+    *zoom: 1;
+    padding: 10px 0 0 20px;
+}
+
+.cate_detail_item {
+    position: relative;
+    padding-left: 80px;
+}
+
+.cate_detail_tit {
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    top: 6px;
+    width: 70px;
+    text-align: right;
+    font-weight: 700;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.cate_detail_tit_arrow {
+    margin-left: 5px;
+}
+
+.cate_detail_con {
+    overflow: hidden;
+    *zoom: 1;
+    padding: 5px 0;
+}
+
+.cate_detail_con_lk {
+    float: left;
+    margin: 3px 0;
+    padding: 0 10px;
+    height: 16px;
+    border-left: 1px solid #e0e0e0;
+    line-height: 16px;
+    white-space: nowrap;
+}
+
 .grid-col2 {
     /* position: relative; */
     width: 590px;
@@ -163,7 +283,7 @@ header .w .iconfont {
 
 
 .login-t {
-    width: 95px;
+    /* width: 95px; */
     height: 65px;
     line-height: 20px;
     font-size: 12px;
@@ -228,14 +348,15 @@ header .w .iconfont {
 
 .login-b a:hover {
     background-color: #f10215;
-    color: #fff;
+    color: #fff !important;
+
 }
 
 .news {
     height: 155px;
     border-bottom: 1px solid #ccc;
     background-color: #fff;
-    padding: 7px 13px 0;
+    padding: 30px 13px 0;
     box-sizing: border-box;
 }
 
@@ -378,7 +499,7 @@ header .w .iconfont {
 /* floor部分 */
 .floor {
     width: 1190px;
-    margin:0 auto;
+    margin: 0 auto;
 }
 
 .sk {

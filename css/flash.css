@@ -43,7 +43,7 @@
     display: block;
     width: 20px;
     height: 33px;
-    background: url(./images/index/sprite.seckill.png) -35px -25px;
+    background: url(../images/sprite.seckill.png) -35px -25px;
 }
 
 .sk_desc {
