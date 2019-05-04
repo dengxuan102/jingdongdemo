@@ -7,8 +7,7 @@
 /*中间分类模块开始*/
 
 header {
-
-    z-index: 30;
+    z-index: 2;
     background-color: #3260c2;
 }
 
@@ -54,7 +53,7 @@ header .w .iconfont {
     width: 24px;
     height: 40px;
     margin-top: -22px;
-    z-index: 10;
+    /* z-index: 2; */
     cursor: pointer;
     background-size: 15px 20px;
     background-position: center;
@@ -79,7 +78,7 @@ header .w .iconfont {
     position: absolute;
     top: 0;
     left: -250px;
-    z-index: 999;
+    /* z-index: 999; */
     /*叠放次序*/
 }
 
@@ -106,6 +105,7 @@ header .w .iconfont {
 }
 
 .grid-col1 ul {
+    position: relative;
     padding: 10px 0;
 }
 
@@ -120,17 +120,18 @@ header .w .iconfont {
     background-color: #d9d9d9;
 }
 
-
-
 .cate_part {
     display: none;
+    position: absolute;
     padding: 20px 0 0 20px;
-
+    z-index: 11;
+    background: #fff;
+    top:0;
+    left:190px;
 }
 
 .grid-col1 ul li:hover #cate_item1 {
-    display: block;
-    z-index: 11;
+    display:flex;
 }
 
 .cate_detail a {
@@ -142,7 +143,7 @@ header .w .iconfont {
     float: left;
     width: 800px;
     height: 480px;
-    /* border: 1px solid red; */
+    border: 1px solid red;
 }
 
 .cate_part_col2 {
@@ -165,7 +166,7 @@ header .w .iconfont {
 }
 
 .cate_part:after {
-    visibility: hidden;
+    /* visibility: hidden; */
     clear: both;
     display: block;
     content: ".";
@@ -181,12 +182,12 @@ header .w .iconfont {
 .cate_channel_lk {
     *cursor: pointer;
     float: left;
-    margin-right: 10px;
+    margin-right: 10px !important;
     padding: 0 10px;
     height: 24px;
     background-color: #333;
     line-height: 24px;
-    color: #fff;
+    color: #fff !important;
 }
 
 .cate_channel_arrow {
@@ -194,7 +195,8 @@ header .w .iconfont {
 }
 
 .cate_channel a:hover {
-    background-color: #5c5251;
+    background-color: #5c5251 !important;
+    color: #fff !important;
 }
 
 .cate_detail {
@@ -209,7 +211,7 @@ header .w .iconfont {
 }
 
 .cate_detail_tit {
-    overflow: hidden;
+    /* overflow: hidden; */
     position: absolute;
     left: 0;
     top: 6px;
@@ -356,7 +358,7 @@ header .w .iconfont {
     height: 155px;
     border-bottom: 1px solid #ccc;
     background-color: #fff;
-    padding: 30px 13px 0;
+    padding: 15px 13px 0;
     box-sizing: border-box;
 }
 

@@ -10,194 +10,22 @@
     <link rel="stylesheet" href="./css/base.css">
     <link rel="stylesheet" href="./css/normalize.css">
     <style>
-        body {
-            font: 12px/1.5 Microsoft YaHei, tahoma, arial, Hiragino Sans GB, \\5b8b\4f53, sans-serif;
-            color: #666;
-        }
-
-        .iconfont {
-            font-size: 12px;
-        }
-
-        a {
-            color: #666;
-            text-decoration: none;
-        }
-
-        .cate_detail a:hover {
-            color: #c81623;
-        }
-
-        .cate_part {
-            width: 100%;
-            /* display: none; */
-        }
-
-        .cate_part_col1 {
-            float: left;
-            width: 800px;
-            height: 480px;
-            /* border: 1px solid red; */
-        }
-
-        .cate_part_col2 {
-            float: left;
-            width: 198px;
-            height: 480px;
-            /* border: 1px solid red; */
-        }
-
-        .cate_promotion {
-            margin: 10px auto 0;
-            width: 168px;
-        }
-
-        .cate_promotion_lk {
-            display: block;
-            margin-bottom: 1px;
-            height: 134px;
-            background-color: #e7e7e7;
-        }
-
-        .cate_part:after {
-            visibility: hidden;
-            clear: both;
-            display: block;
-            content: ".";
-            height: 0;
-        }
-
-        .cate_channel {
-            overflow: hidden;
-            padding-left: 20px;
-            height: 24px;
-        }
-
-        .cate_channel_lk {
-            *cursor: pointer;
-            float: left;
-            margin-right: 10px;
-            padding: 0 10px;
-            height: 24px;
-            background-color: #333;
-            line-height: 24px;
-            color: #fff;
-        }
-
-        .cate_channel_arrow {
-            margin-left: 5px;
-        }
-
-        .cate_channel a:hover {
-            background-color: #5c5251;
-        }
-
-        .cate_detail {
-            overflow: hidden;
-            *zoom: 1;
-            padding: 10px 0 0 20px;
-        }
-
-        .cate_detail_item {
-            position: relative;
-            padding-left: 80px;
-        }
-
-        .cate_detail_tit {
-            overflow: hidden;
-            position: absolute;
-            left: 0;
-            top: 6px;
-            width: 70px;
-            text-align: right;
-            font-weight: 700;
-            white-space: nowrap;
-            text-overflow: ellipsis;
-        }
-
-        .cate_detail_tit_arrow {
-            margin-left: 5px;
-        }
-
-        .cate_detail_con {
-            overflow: hidden;
-            *zoom: 1;
-            padding: 5px 0;
-        }
-
-        .cate_detail_con_lk {
-            float: left;
-            margin: 3px 0;
-            padding: 0 10px;
-            height: 16px;
-            border-left: 1px solid #e0e0e0;
-            line-height: 16px;
-            white-space: nowrap;
-        }
+        
     </style>
 </head>
 
 <body>
-    <div class="cate_part">
-        <div class="cate_part_col1">
-            <div class="cate_channel">
-                <a href="#" class="cate_channel_lk">家电馆<i class="iconfont cate_channel_arrow">&#xe625;</i></a>
-                <a href="#" class="cate_channel_lk">家电专卖店<i class="iconfont cate_channel_arrow">&#xe625;</i></a>
-                <a href="#" class="cate_channel_lk">家电服务<i class="iconfont cate_channel_arrow">&#xe625;</i></a>
-                <a href="#" class="cate_channel_lk">企业采购<i class="iconfont cate_channel_arrow">&#xe625;</i></a>
-                <a href="#" class="cate_channel_lk">商用电器<i class="iconfont cate_channel_arrow">&#xe625;</i></a>
-            </div>
-            <div class="cate_detail">
-                <dl class="cate_detail_item">
-                    <dt class="cate_detail_tit">
-                        <a href="cate_detail_tit_lk">电视<i class="iconfont cate_detail_tit_arrow">&#xe625;</i></a>
-                    </dt>
-                    <dd class="cate_detail_con">
-                        <a href="#" class="cate_detail_con_lk">超薄电视</a>
-                        <a href="#" class="cate_detail_con_lk">全面屏电视</a>
-                        <a href="#" class="cate_detail_con_lk">智能电视</a>
-                        <a href="#" class="cate_detail_con_lk">OLED电视</a>
-                        <a href="#" class="cate_detail_con_lk">曲面电视</a>
-                        <a href="#" class="cate_detail_con_lk">4K电视</a>
-                        <a href="#" class="cate_detail_con_lk">55英寸电视</a>
-                        <a href="#" class="cate_detail_con_lk">65英寸电视</a>
-                        <a href="#" class="cate_detail_con_lk">电视配件</a>
-                    </dd>
-                </dl>
-                <dl class="cate_detail_item">
-                    <dt class="cate_detail_tit">
-                        <a href="cate_detail_tit_lk">厨房小电<i class="iconfont cate_detail_tit_arrow">&#xe625;</i></a>
-                    </dt>
-                    <dd class="cate_detail_con">
-                        <a href="#" class="cate_detail_con_lk">破壁机</a>
-                        <a href="#" class="cate_detail_con_lk">电烤箱</a>
-                        <a href="#" class="cate_detail_con_lk">电饭煲</a>
-                        <a href="#" class="cate_detail_con_lk">电压力锅</a>
-                        <a href="#" class="cate_detail_con_lk">电炖锅</a>
-                        <a href="#" class="cate_detail_con_lk">豆浆机</a>
-                        <a href="#" class="cate_detail_con_lk">料理机</a>
-                        <a href="#" class="cate_detail_con_lk">咖啡机</a>
-                        <a href="#" class="cate_detail_con_lk">电饼铛</a>
-                        <a href="#" class="cate_detail_con_lk">榨汁机/原汁机</a>
-                        <a href="#" class="cate_detail_con_lk">电水壶/热水瓶</a>
-                        <a href="#" class="cate_detail_con_lk">微波炉</a>
-                        <a href="#" class="cate_detail_con_lk">电火锅</a>
-                        <a href="#" class="cate_detail_con_lk">养生壶</a>
-                        <a href="#" class="cate_detail_con_lk">电磁炉</a>
-                        <a href="#" class="cate_detail_con_lk">面包机</a>
-                        <a href="#" class="cate_detail_con_lk">空气炸锅</a>
-                        <a href="#" class="cate_detail_con_lk">面条机</a>
-                        <a href="#" class="cate_detail_con_lk">电陶炉</a>
-                        <a href="#" class="cate_detail_con_lk">煮蛋器</a>
-                        <a href="#" class="cate_detail_con_lk">电烧烤炉</a>
-                    </dd>
-                </dl>
-            </div>
-        </div>
-        <div class="cate_part_col2">
-            <div class="cate_promotion">
-                <a class="cate_promotion_lk" href="#"><img src="./images/index/cate_promotion-1.jpg" alt=""></a>
-                <a class="cate_promotion_lk" href="#"><img src="./images/index/cate_promotion-2.jpg" alt=""></a>
+    <div id="J_mobile_pop" class="mobile_pop">
+        <div class="mobile_pop_item">
+            <div class="mobile_pop_qrcode"></div>
+            <div class="mobile_pop_info">
+                <h5 class="mobile_pop_tit">手机京东</h5>
+                <p class="mobile_pop_value">新人专享大礼包</p>
+                <p class="mobile_pop_device">
+                    <a href="#" class="mobile_pop_device_lk mobile_pop_device_ios"></a>
+                    <a href="#" class="mobile_pop_device_lk mobile_pop_device_and"></a>
+                    <a href="#" class="mobile_pop_device_lk mobile_pop_device_pad"></a>
+                </p>
             </div>
         </div>
     </div>

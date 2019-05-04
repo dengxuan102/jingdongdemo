@@ -22,7 +22,7 @@ img {
 
 .iconfont {
     font-family: "iconfont" !important;
-    font-size: 16px;
+    font-size: 10px;
     font-style: normal;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -118,7 +118,7 @@ header {
     width: 498px;
     height: 35px;
     float: left;
-    border: 1px solid #f10215;
+    /* border: 1px solid #f10215; */
     font-size: 14px;
     padding-left: 3px;
     box-sizing: border-box;
@@ -129,12 +129,42 @@ header {
     height: 35px;
     background-color: #f10215;
     float: left;
+    cursor: pointer;
 }
 
 .form button i {
-    font-family: 'icomoon';
+    font: 14px 'icomoon';
     font-style: normal;
     color: #fff;
+}
+
+.photo-search-btn {
+    position: absolute;
+    right: 65px;
+    top: 10px;
+    width: 19px;
+    height: 15px;
+    overflow: hidden;
+}
+
+.upload-bg {
+    display: block;
+    width: 19px;
+    height: 15px;
+    background: url(../images/index/sprite-photo-search.png) no-repeat;
+    cursor: pointer;
+}
+
+.upload-trigger {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 3;
+    width: 500px;
+    height: 500px;
+    cursor: pointer;
+    filter: alpha(opacity=0);
+    opacity: 0;
 }
 
 /*购物车*/
