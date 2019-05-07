@@ -126,12 +126,12 @@ header .w .iconfont {
     padding: 20px 0 0 20px;
     z-index: 11;
     background: #fff;
-    top:0;
-    left:190px;
+    top: 0;
+    left: 190px;
 }
 
 .grid-col1 ul li:hover #cate_item1 {
-    display:flex;
+    display: flex;
 }
 
 .cate_detail a {
